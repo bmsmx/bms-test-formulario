@@ -11,8 +11,10 @@ add_shortcode('bms_form1','bms_form1');
 
     function bms_form1() 
 {
-    wp_enqueue_style('css_aspirante', plugins_url('style.css', __FILE__));
-    ob_start();
+    wp_enqueue_style('css_aspirante', plugins_url('/style.css')); 
+
+    ob_start(); 
+
 ?>
 
 <form action="<?php get_the_permalink(); ?>" method="post" id="form_aspirante
