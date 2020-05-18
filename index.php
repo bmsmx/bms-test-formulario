@@ -6,15 +6,10 @@
  * Version: 1.0
  */
 // Define el shortcode que muestra el formulario
-add_shortcode('kfp_aspirante_form', 'Kfp_Aspirante_form');
- 
-/** 
- * Define la función que ejecutará el shortcode
- * De momento sólo pinta un formulario que no hace nada
- * 
- * @return string
- */
-function Kfp_Aspirante_form() 
+add_shortcode('bms_form1','bms_form1');
+
+
+    function bms_form1() 
 {
     
     ob_start();
