@@ -11,7 +11,7 @@ add_shortcode('bms_form1','bms_form1');
 
     function bms_form1() 
 {
-    wp_enqueue_style('css_aspirante', plugins_url('style.css', __FILE__)); 
+    wp_enqueue_style('css_aspirante', plugins_url('style.css')); 
 
     ob_start(); 
 
